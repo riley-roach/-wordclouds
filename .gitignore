@@ -48,6 +48,9 @@ Temporary Items
 .Rproj.user/
 *.Rproj
 /*.Rproj
+.Rproj
+/.Rproj
+
 
 # produced vignettes
 vignettes/*.html
