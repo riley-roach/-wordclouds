@@ -70,3 +70,4 @@ rsconnect/
 
 # VS code
 .code-workspace
+.Rproj.user
