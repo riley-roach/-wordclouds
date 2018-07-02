@@ -49,3 +49,18 @@ kanye_tbl <-
 
 wordcloud2::wordcloud2(kanye_tbl,
                        size = 1.5)
+
+
+kanye.west <- jpeg('images/kanye.jpg')
+
+
+redPalette <- c("#5c1010", "#6f0000", "#560d0d", "#c30101", "#940000")
+
+
+
+wordcloud2::wordcloud2(kanye_tbl,
+                       size = 0.7,
+                       figPath = kanye.west,
+                       color = rep_len(redPalette,
+                                       nrow(kanye_tbl)))
+
